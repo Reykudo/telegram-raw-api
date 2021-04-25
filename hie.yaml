@@ -1,3 +1,7 @@
 cradle:
-  cabal:
-    component: "telegram-raw-api"
+  stack:
+    - path: "./src"
+      component: "telegram-raw-api:lib"
+
+    - path: "./test"
+      component: "telegram-raw-api:test:telegram-raw-api-test"

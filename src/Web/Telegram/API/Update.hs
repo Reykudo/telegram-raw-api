@@ -15,10 +15,11 @@ import Web.Telegram.Types
 import Web.Telegram.Types.Stock
 import Web.Telegram.Types.Update
 import Web.Telegram.Types.UpdateType
+import Data.Int (Int64)
 
 data Polling
   = Polling
-      { offset :: Maybe Int,
+      { offset :: Maybe Int64,
         limit :: Maybe Int,
         timeout :: Maybe Int,
         allowedUpdates :: Maybe Text
