@@ -41,7 +41,7 @@ packages:
 #
 extra-deps:
   - github: Reykudo/telegram-types
-    commit: 1acc443408bd859d5ba5fb7b5807bad2dddd681e
+    commit: e3ed7079f870ea11c40f5847d21301ad848363be
   - open-union-0.4.0.0@sha256:1c8f8090054b0974e95e44bed88e74fff956ba2120aade6e8deea92d65ef5e49,3503
   - github: enobayram/type-fun
     commit: 35bda1ea0176b1a92f8e96e5cd0efa9dbc4d7e7c
